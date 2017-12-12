@@ -31,3 +31,5 @@ FROM marcas, modelos
 WHERE modelos.nombre LIKE '%S%'
 AND modelos.codigo_marca=marcas.codigo;
 
+SELECT * FROM modelos ORDER BY segmento;
+
